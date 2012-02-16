@@ -14,3 +14,5 @@
         %td= movie.rating
         %td= movie.release_date.strftime("%F")
         %td= link_to "More about #{movie.title}", movie
+
+= link_to 'Add new movie', new_movie_path
