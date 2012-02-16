@@ -5,3 +5,24 @@
  *= require_self
  *= require_tree . 
 */
+
+/* Simple CSS styling for RottenPotatoes app */
+/* Add these lines to app/assets/stylesheets/application.css */
+html {
+  font-family: Verdana,Helvetica,sans-serif;
+  color: navy;
+}
+body {
+  background-color: silver;
+}
+h1, h2 {
+  background-color: #ddd;
+  margin: 0;
+}
+form label {
+  display: block;
+  color: #333;
+  font-style: italic;
+  padding-top: 1ex;
+  padding-left: 1ex;
+}
